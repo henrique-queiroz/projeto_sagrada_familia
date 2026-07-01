@@ -14,77 +14,172 @@
 const PRODUTOS = [
   {
     id: 1,
-    categoria: "Crucifixos",
-    titulo: "Crucifixo São Bento em Madeira Nobre",
-    descricao: "Confeccionado em madeira de lei com medalha de São Bento encrustada. Ideal para sala, quarto ou presente especial.",
-    precoOriginal: "98,00",  // null = sem desconto
-    preco: "79,90",
-    badge: "Mais Vendido",   // null = sem badge
-    image: null,             // Ex: "https://i.ibb.co/exemplo/crucifixo.jpg"
-    imageAlt: "Crucifixo São Bento em madeira nobre",
-    whatsappMsg: "Olá! Tenho interesse no Crucifixo São Bento."
+    categoria: "Camiseta",
+    titulo: "Nossa senhora de Guadalupe",
+    descricao: "Camiseta preta, no tecido suede confort, com escrita branca e detalhes brancos nas costas e imagem de Nossa Senhora de Guadalupe na frente.",
+    precoOriginal: null,  
+    badge: null,
+    image: "https://i.ibb.co/PZV9DQD5/Whats-App-Image-2026-06-22-at-19-36-27.jpg",
+    imageAlt: "Camiseta Nossa Senhora de Guadalupe",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: Nossa Senhora de Guadalupe."
   },
   {
     id: 2,
-    categoria: "Terços",
-    titulo: "Terço Nossa Senhora Aparecida em Cristal",
-    descricao: "Contas de cristal lapidado com medalha da Padroeira do Brasil. Acompanha estojo de veludo e certificado.",
+    categoria: "Camiseta",
+    titulo: "Nossa senhora das Graças",
+    descricao: "Camiseta branca, no tecido suede confort, com imagem de Nossa Senhora das Graças na frente e imagem da medalha milagrosa nas costas com oração escrita.",
     precoOriginal: null,
-    preco: "54,90",
+    preco: "69,90",
     badge: null,
-    image: null,
-    imageAlt: "Terço Nossa Senhora Aparecida em cristal lapidado",
-    whatsappMsg: "Olá! Tenho interesse no Terço N.S. Aparecida em Cristal."
+    image: "https://i.ibb.co/Jjq82xdm/Whats-App-Image-2026-06-22-at-19-38-29.jpg",
+    imageAlt: "Camiseta Nossa Senhora das Graças",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: Nossa Senhora das Graças."
   },
   {
     id: 3,
-    categoria: "Imagens Sacras",
-    titulo: "Imagem Sagrado Coração de Jesus em Resina",
-    descricao: "Escultura detalhada em resina de alta qualidade, acabamento premium com pintura à mão. 25 cm de altura.",
-    precoOriginal: "169,00",
-    preco: "139,90",
-    badge: "Novo",
-    image: null,
-    imageAlt: "Imagem do Sagrado Coração de Jesus em resina pintada à mão",
-    whatsappMsg: "Olá! Tenho interesse na Imagem Sagrado Coração de Jesus."
+    categoria: "Camiseta",
+    titulo: "Jesus, Maria e José",
+    descricao: "Camiseta azul, no tecido suede confort, com escrita branca e detalhes brancos na frente.",
+    precoOriginal: null,
+    preco: "69,90",
+    badge: null,
+    image: "https://i.ibb.co/nq4m92NC/Whats-App-Image-2026-06-22-at-19-40-33.jpg",
+    imageAlt: "Camiseta Jesus, Maria e José",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: Jesus, Maria e José."
   },
   {
     id: 4,
-    categoria: "Medalhas",
-    titulo: "Medalha Milagrosa em Prata 950",
-    descricao: "Legítima medalha milagrosa banhada em prata 950. Corrente inclusa. Embalagem para presente com oração impressa.",
+    categoria: "Camiseta",
+    titulo: "Títulos de Nossa Senhora",
+    descricao: "Camiseta preta, no tecido suede confort, com detalhes coloridos e escrita dourada.",
     precoOriginal: null,
-    preco: "89,90",
+    preco: "69,90",
     badge: null,
-    image: null,
-    imageAlt: "Medalha Milagrosa banhada em prata 950 com corrente",
-    whatsappMsg: "Olá! Tenho interesse na Medalha Milagrosa em Prata."
+    image: "https://i.ibb.co/KcMLy7yS/Whats-App-Image-2026-06-22-at-19-41-57.jpg",
+    imageAlt: "Camiseta Títulos de Nossa Senhora",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: Títulos de Nossa Senhora."
   },
   {
     id: 5,
-    categoria: "Velas e Incensos",
-    titulo: "Kit Oração — Velas e Incenso Sagrado",
-    descricao: "Kit com 4 velas aromáticas (Mirra, Olíbano, Sândalo e Rosa de Saron) e 1 incensário de cerâmica artesanal.",
-    precoOriginal: "96,00",
-    preco: "74,90",
+    categoria: "Camiseta",
+    titulo: "Jesus Misericordioso",
+    descricao: "Camiseta branca, no tecido suede confort, com escrita marrom e imagem de Jesus Misericordioso na frente.",
+    precoOriginal: null,
+    preco: "69,90",
     badge: null,
-    image: null,
-    imageAlt: "Kit de velas aromáticas e incensário de cerâmica artesanal",
-    whatsappMsg: "Olá! Tenho interesse no Kit Oração com velas e incenso."
+    image: "https://i.ibb.co/Dg707G2w/Whats-App-Image-2026-06-22-at-19-43-59.jpg",
+    imageAlt: "Camiseta Jesus Misericordioso",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: Jesus Misericordioso."
   },
   {
     id: 6,
-    categoria: "Bíblias e Livros",
-    titulo: "Bíblia de Jerusalém — Edição Especial Capa Dura",
-    descricao: "Tradução consagrada pelos estudiosos. Capa dura com bordas douradas, mapas bíblicos e notas de rodapé completas.",
-    precoOriginal: "220,00",
-    preco: "179,90",
-    badge: "Oferta",
-    image: null,
-    imageAlt: "Bíblia de Jerusalém edição especial capa dura com bordas douradas",
-    whatsappMsg: "Olá! Tenho interesse na Bíblia de Jerusalém Edição Especial."
-  }
-];
+    categoria: "Camiseta",
+    titulo: "Sagrada Família",
+    descricao: "Camiseta branca, no tecido suede confort, com escrita marrom e imagem da Sagrada Família na frente.",
+    precoOriginal: null,
+    preco: "69,90",
+    badge: null,
+    image: "https://i.ibb.co/392gMtJD/Whats-App-Image-2026-06-22-at-19-45-41.jpg",
+    imageAlt: "Camiseta Sagrada Família",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: Sagrada Família."
+  },
+  {
+    id: 7,
+    categoria: "Camiseta",
+    titulo: "São Miguel Arcanjo",
+    descricao: "Camiseta branca, no tecido suede confort, com imagem da espada de São Miguel Arcanjo na frente e imagem de São Miguel Arcanjo nas costas.",
+    precoOriginal: null,
+    preco: "69,90",
+    badge: null,
+    image: "https://i.ibb.co/350d9sSd/Whats-App-Image-2026-06-22-at-19-48-44.jpg",
+    imageAlt: "Camiseta São Miguel Arcanjo",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: São Miguel Arcanjo."
+  },
+  {
+    id: 8,
+    categoria: "Camiseta",
+    titulo: "Santíssimo Sacramento",
+    descricao: "Camiseta preta, no tecido suede confort, com escrita dourada e detalhes dourados na frente e imagem do Santíssimo Sacramento nas costas.",
+    precoOriginal: null,
+    preco: "69,90",
+    badge: null,
+    image: "https://i.ibb.co/x8f1fzhP/Whats-App-Image-2026-06-22-at-19-51-45.jpg",
+    imageAlt: "Camiseta Santíssimo Sacramento",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: Santíssimo Sacramento."
+  },
+  {
+    id: 9,
+    categoria: "Camiseta",
+    titulo: "São Francisco de Assis",
+    descricao: "Camiseta branca, no tecido suede confort, com escrita marrom e imagem de São Francisco de Assis na frente.",
+    precoOriginal: null,
+    preco: "69,90",
+    badge: null,
+    image: "https://i.ibb.co/21L1TVTj/Whats-App-Image-2026-06-22-at-19-53-09.jpg",
+    imageAlt: "Camiseta São Francisco de Assis",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: São Francisco de Assis."
+  },
+  {
+    id: 10,
+    categoria: "Camiseta",
+    titulo: "Bom Pastor",
+    descricao: "Camiseta branca, no tecido suede confort, com escrita preta e detalhes pretos na frente e imagem do bom pastor nas costas.",
+    precoOriginal: null,
+    preco: "69,90",
+    badge: null,
+    image: "https://i.ibb.co/svWswrYD/Whats-App-Image-2026-06-22-at-19-57-09.jpg",
+    imageAlt: "Camiseta Bom Pastor",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: Bom Pastor."
+  },
+  {
+    id: 11,
+    categoria: "Camiseta",
+    titulo: "Santa Teresinha do Menino Jesus",
+    descricao: "Camiseta branca, no tecido suede confort, com escrita vermelha e imagem de Santa Teresinha.",
+    precoOriginal: null,
+    preco: "69,90",
+    badge: null,
+    image: "https://i.ibb.co/C5WWhGGs/Whats-App-Image-2026-06-22-at-23-12-16.jpg",
+    imageAlt: "Camiseta Santa Teresinha",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: Santa Teresinha."
+  },
+  {
+    id: 12,
+    categoria: "Camiseta",
+    titulo: "Seleção Brasileira",
+    descricao: "Camiseta branca, no tecido suede confort, com o  escudo da CBF e detalhes na lateral com a imagem da bandeira do Brasil e Nossa Senhora Aparecida vazada.",
+    precoOriginal: null,
+    preco: "69,90",
+    badge: null,
+    image: "https://i.ibb.co/PZMYcgh8/Whats-App-Image-2026-06-22-at-20-01-21.jpg",
+    imageAlt: "Camiseta Seleção Brasileira",
+    whatsappMsg: "Olá! Tenho interesse na Camiseta: Seleção Brasileira."
+  },
+  {
+    id: 13,
+    categoria: "Jaqueta",
+    titulo: "São Miguel Arcanjo",
+    descricao: "Jaqueta azul, no jeans, com a imagem de São Miguel Arcanjo nas costas.",
+    precoOriginal: null,
+    preco: "399,90",
+    badge: null,
+    image: "https://i.ibb.co/hJxTYTCb/Whats-App-Image-2026-06-22-at-22-39-08.jpg",
+    imageAlt: "Jaqueta São Miguel Arcanjo",
+    whatsappMsg: "Olá! Tenho interesse na Jaqueta: São Miguel Arcanjo."
+  },
+  {
+    id: 14,
+    categoria: "Jaqueta",
+    titulo: "São Bento",
+    descricao: "Jaqueta preta, no jeans, com a medalha de São Bento nas costas..",
+    precoOriginal: null,
+    preco: "399,90",
+    badge: null,
+    image: "https://i.ibb.co/YBSmV9F4/Whats-App-Image-2026-06-22-at-22-37-36.jpg",
+    imageAlt: "Jaqueta São Bento",
+    whatsappMsg: "Olá! Tenho interesse na Jaqueta: São Bento."
+  },
+  ];
 
 
 /* ================================================================
