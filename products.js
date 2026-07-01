@@ -18,6 +18,7 @@ const PRODUTOS = [
     titulo: "Nossa senhora de Guadalupe",
     descricao: "Camiseta preta, no tecido suede confort, com escrita branca e detalhes brancos nas costas e imagem de Nossa Senhora de Guadalupe na frente.",
     precoOriginal: null,  
+    preco: "69,90",
     badge: null,
     image: "https://i.ibb.co/PZV9DQD5/Whats-App-Image-2026-06-22-at-19-36-27.jpg",
     imageAlt: "Camiseta Nossa Senhora de Guadalupe",
