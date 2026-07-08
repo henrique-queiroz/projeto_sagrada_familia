@@ -224,7 +224,7 @@ function renderProdutos() {
       : "";
 
     const msgEncoded = encodeURIComponent(p.whatsappMsg);
-    const waLink = `https://wa.me/${5561982345846}?text=${msgEncoded}`;
+    const waLink = `https://wa.me/${5561985252202}?text=${msgEncoded}`;
 
     return `
       <article class="card reveal">
